@@ -1,0 +1,136 @@
+*{
+    padding: 0 ;
+    margin: 0;
+    box-sizing : border-box;
+    margin:auto;
+    max-width: 1600px;
+    background-color: #2a1a0d;
+
+
+}.logo
+{
+    color:#2a1a0d;
+    font-size: 25px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    display: flex; 
+}
+.search-bar{
+    width:450px;
+    max-width: 700px;
+     background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 70px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px)saturate(180%);
+}
+.search-bar input{
+    background: transparent;
+    flex:1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #2a2a2a;
+}
+::placeholder{
+    color: #2a1a0d;
+}
+.search-bar button{
+    border: 0;
+    border-radius: 80px;
+    width: 50px;
+    height: 40px;
+    background: #58629b;
+    cursor: pointer;
+
+}
+
+
+
+.container{
+width: 100%;
+min-height: 100vh;
+padding: 5%;
+background-position: center;
+display: flex;
+align-items: center;
+justify-content: center;
+  
+}
+.p{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: bold;
+}
+MENU{
+    width: 80%;}
+    
+img{ width: 180px;
+    height: 180px;
+    float: centre;
+}
+menu ul li {
+    display:inline-block;
+    padding: top 20px; ;
+}menu ul li a{
+    text-decoration: none;
+    padding:0 10px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aqua;
+}
+ul{float:right;
+}menu ul li a:hover{
+    color:orange;
+    border-bottom: solid 1px orange;
+    padding-top: 15px;
+    transition: o.5s;
+}menu ul li a :nth-child(7){
+    border-left: 100px;
+}   .main{
+    text-align: center;
+width: 80px;
+color: aqua;
+margin-top: 10%;
+background-color: rgba(0, 0,0,0.596);
+border-style: inset; 
+border-radius: 15px;
+height: 300%;
+width: 300%;
+padding-top: 5%;
+font-family: monospace;
+}
+.main p {
+    line-height: 23px;
+    width: 20%;
+    font-size: 10opx;
+    padding: 10px;
+}
+button{
+    margin-top: 25px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: dodgerblue;
+    color: whitesmoke;
+    font: size 17px;
+    border: none;
+    outline:none 
+}
+body{
+    background-image: url(vet9.jpeg);
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: center;
+}
+.hello{
+   position: absolute;
+   height: auto;
+   left: 0px; 
+   width: 200px;
+}
+    
+    

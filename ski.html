@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <form action="process-skills.php" method="POST">
+            <link rel="stylesheet" href="ski.css">
+        <title>skill</title>
+    </head>
+    <body>
+
+        <label  class="lab" for="date">Date:</label>
+        <input type="date" id="date" name="date" required class="name2"><br>
+
+        <label class="lab" for="photo">Photo:</label>
+<input type="file" id="photo" name="photo" accept="image/*" required  class="name2"><br><br>
+       
+            <label class="lab" for="name">title:</label>
+            <input type="text" id="name" name="name" required class="name2"><br><br>
+            
+            <label  class="lab" for="description">Description:</label>
+            <textarea id="description" name="description" required class="name2"></textarea><br><br>
+            
+            <label  class="lab" for="category">Category:</label>
+            <select id="category" name="category" required class="name2">
+              <option value="">select category</option>
+              <option value="Programming">teaching</option>
+              <option value="Design">technology</option>
+              <option value="Design">business</option>
+              <option value="Communication">Counceling</option>
+              <!-- Add more options as needed -->
+            </select><br>
+            
+            <input type="submit" value="Submit">
+          </form>
+    </body>
+</html>

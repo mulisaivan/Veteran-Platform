@@ -1,0 +1,115 @@
+form {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  textarea,
+  input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #333300;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  .lab{
+    font-size: 20px;
+  }
+  .name3{
+    height: 50px;
+width:300px;
+padding: 4px;
+outline: 0;
+background-color: #f7f1f1;
+box-shadow:inset 1px 1px 5px #333300 ;
+font-size: 20px;
+}
+  
+
+/* Style edit and delete links */
+.dashboard-link {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border-radius: 4px;
+  }
+  
+  /* Style edit link on hover */
+  .dashboard-link:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style delete link */
+  .dashboard-link.delete {
+    background-color: #ff3b3b;
+  }
+  
+  /* Style delete link on hover */
+  .dashboard-link.delete:hover {
+    background-color: #dc2c2c;
+  }
+  .cards {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .card0 {
+    flex: 1;
+  }
+  
+  .card1 {
+    flex: 2;
+    padding: 10px;
+    background-color: #333300;
+  }
+  
+  .card2 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  img {
+    max-width: 30%;
+    height: auto;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }

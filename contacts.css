@@ -1,0 +1,36 @@
+.contact-info {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.contact-info strong {
+    font-weight: bold;
+    color: #555;
+}
+
+.contact-info p:last-child {
+    margin-bottom: 0;
+}
+
+.contact-info p:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.contact-info p strong:before {
+    content: "\2022";
+    margin-right: 5px;
+    color: #4CAF50;
+}

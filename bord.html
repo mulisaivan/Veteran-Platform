@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet">
+      <link rel="stylesheet" href="bord.css">
+      <link rel="stylesheet" href="personal.html">
+      <title> VET DashBoard</title>
+        
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+              <div class="logo">
+                <img src="Logo_Reserve.jpg">
+                <h2>Veteran<span class="danger">Platform</span></h2>
+              </div>
+                <div class="close" id="close-btn">
+                  <span class="material-icons-sharp">
+                    close
+                  </span>
+                </div>
+            </div>
+
+    <div class="sidebar">
+        <a href="#">
+            <span class="material-icons-sharp">
+                grid_view
+                </span>
+            <h3>DashBoard</h3>
+        </a>
+           
+        <a href="bord.html">
+            <span class="material-icons-sharp">
+                receipt_long
+                </span>
+            <h3>Home</h3>
+        </a>
+        <a href="updates.php">
+            <span class="material-icons-sharp">
+                insights
+                </span>
+            <h3>Updates</h3>
+        </a>
+      
+        
+        <a href="skills.php">
+            <span class="material-icons-sharp">
+                inventory
+                </span>
+            <h3>Skills</h3>
+        </a>
+        <a href="health.php">
+            <span class="material-icons-sharp">
+                report_gmailerrorred
+                </span>
+            <h3>Health</h3>
+        </a>
+                <a href="messages.php">
+                    <span class="material-icons-sharp">
+                    email 
+                    </span>   
+            <h3>Messages</h3>
+            <span class="message-count">15</span>
+        </a>
+        <a href="settings.html">
+            <span class="material-icons-sharp">
+                settings
+                </span>
+            <h3>Settings</h3>
+        </a>
+        <a href="retires.php">
+            <span class="material-icons-sharp">
+                add
+                </span>
+            <h3>Add Personnel</h3>
+        </a>
+        <a href="proper.html">
+            <span class="material-icons-sharp">
+                logout
+                </span>
+            <h3>Logout</h3>
+        </a>
+    </div>
+    </aside>
+
+    <main>
+        <h1>DashBoard</h1>
+        <div class="date">
+            <input type="date">
+        </div>
+
+        <div class="insight">
+            <div class="sales">
+                <span class="material-icons-sharp">
+                    analytics
+                    </span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total men</h3>
+                            <h1>12</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+            </div>
+
+                     <!-----------women--------------->
+            <div class="women">
+                <span class="material-icons-sharp">
+                    bar_chart
+                    </span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total women</h3>
+                            <h1>2</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle>
+                            </svg>
+                            <div class="number">
+                                <p>20%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+            </div>
+            
+                     <!-----------sales--------------->
+                     <div class="retirements">
+                        <span class="material-icons-sharp">
+                            bar_chart
+                            </span>
+                            <div class="middle">
+                                <div class="left">
+                                    <h3>Total usual retirements</h3>
+                                    <h1>14</h1>
+                                </div>
+                                <div class="progress">
+                                    <svg>
+                                        <circle cx='38' cy='38' r='36'></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <p>20%</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <small class="text-muted">Last 24 Hours</small>
+                    </div>
+            <!--------------Incame------------------>
+        </div> 
+        <!-------------End of insight--------------->
+        <div class="recent-order">
+            <h2>Current Retires</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Names</th>
+                        <th>Army number</th>
+                        <th>Units</th>
+                        <th>Status</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mugabo</td>
+                        <td>5000</td>
+                        <td>Airforce</td>
+                        <td class="warning">Pending</td>
+                     
+                    </tr>
+                    <tr>
+                        <td>Mugisha</td>
+                        <td>3000</td>
+                        <td>Commando</td>
+                        <td class="warning">Pending</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>Mulisa</td>
+                        <td>4000</td>
+                        <td>R.Guard</td>
+                        <td class="warning">Pending</td>
+                   
+                    </tr>
+                    <tr>
+                        <td>Mensa</td>
+                        <td>2000</td>
+                        <td>Infantry</td>
+                        <td class="warning">Pending</td>
+                      
+                    </tr>
+                </tbody>
+            </table>
+            <a href="#">Show All</a>
+        </div>
+    </main>
+
+    <div class="right">
+        <div class="top">
+            <button id="menu-btn">
+                <span class="material-icons-sharp">
+                    menu
+                    </span>
+            </button>
+            <div class="theme-toggler">
+                <span class="material-icons-sharp active">
+                    light_mode
+                </span>
+                <span class="material-icons-sharp">
+                        dark_mode
+                </span>
+            </div>
+            <div class="profile">
+                <div class="info">
+                    <p>Hey, <b>Ivan</b></p>
+                    <small class="text-muted">Admin</small>
+                </div>
+                <div class="profile-photo">
+                    <img src="gd.jpg">
+                </div>
+                </div>
+            </div>
+                <!-----------------end of recent updates------------------------>
+                <div class="sales-analytics">
+                    <h2>Retires Analysis</h2>
+                    <div class="item online">
+                        <div class="icon">
+                            <span class="material-icons-sharp">
+                                shopping_cart
+                                </span>
+                        </div>
+                        <div class="right">
+                            <div class="info">
+                                <h3>FORMER RETIRES</h3>
+                                <small class="text-muted">Last 24Hours</small>
+                            </div>
+                            <h5 class="success">+39%</h5>
+                            <h3>3849</h3>
+                        </div>
+                    </div>
+                    <div class="item offline">
+                        <div class="icon">
+                            <span class="material-icons-sharp">
+                                local_mall
+                                </span>
+                        </div>
+                        <div class="right">
+                            <div class="info">
+                                <h3>DEAD RETIRES</h3>
+                                <small class="text-muted">Last 24Hours</small>
+                            </div>
+                            <h5 class="danger">-17%</h5>
+                            <h3>2200</h3>
+                        </div>
+                    </div>
+                    <div class="item customers">
+                        <div class="icon">
+                            <span class="material-icons-sharp">
+                                person
+                                </span>
+                        </div>
+                        <div class="right">
+                            <div class="info">
+                                <h3>NEW RETIRES</h3>
+                                <small class="text-muted">Last 24Hours</small>
+                            </div>
+                            <h5 class="success">+25%</h5>
+                            <h3>349</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    
+    <script src="my res dashbrd.js"></script>
+</body>
+</html>
+
+
+
+

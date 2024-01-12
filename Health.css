@@ -1,0 +1,186 @@
+*{
+    margin: 0%;
+}
+
+.p2{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    border: 1px solid black;
+    align-items: center;
+    margin: auto;
+    margin-top: 5%;
+    background-image: linear-gradient(#036787,#026733);
+    box-shadow: 2px 3px 5px;
+    border-radius: 12px;
+}
+.p2 h1{
+    color:white;
+    font-size: 50px;
+    border-bottom: 4px solid darkgrey;
+    margin: 50px; 
+}
+.label{
+    padding: 12px;
+    margin: 20px;
+    width: 65%;
+    border: none;
+    background-color:whitesmoke;
+    border-radius: 6px;
+    font-size: 30px;
+}
+#submit{
+    padding: 10px 20px;
+    margin-top: 50px;
+    width: 50%;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 20px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+nav{
+    width: 100%;
+    height: 75px ;
+    background-image: linear-gradient(#033747,#012733);
+   top: 0;
+   left: 0;
+}
+nav .logo{
+    margin-top: 1.2%;
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+nav ul{
+    float: right;
+    margin-right: 3%;
+    margin-top: 1.6%;
+    
+}
+nav li{
+    display: inline-block;
+}
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 28px 26px;
+    color: white;
+    text-decoration: none;
+    
+}
+nav li:hover a{  
+
+transition: 3s;
+background-color:#ff8c69 ;
+border-radius: 3px;
+
+}
+.nav1{
+    display: flex;
+}
+.nav2{
+    height: 50px;
+    width: 20%;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+.nav2 select{
+    padding: 10px 12px;
+    width: 80%;
+    background-color: rgb(44, 44, 1);
+    color: whitesmoke;
+    font-size: 23px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px black;
+}
+.gallery{
+    margin-left: 4%;
+    
+   
+}
+.cards{
+    width: 20%;
+    background-color:whitesmoke;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    display: inline-block;
+    margin: 20px;
+    
+    }
+    .cards:hover {
+        box-shadow: 2px 2px 8px black;
+        background-color:seashell;
+      
+    }
+    .gallery img{
+        width: 100%;
+        height: 200px;
+    }
+    .card0 img{
+       
+        border-radius: 5px;
+    }
+    .card1{
+        margin: 10px;
+    }
+    .card1 p{
+        text-align: left;
+        font-size: 25px;
+        font-weight: 600;
+    
+    }
+    .card1 h3{
+        color: rgb(103, 103, 2);
+        text-decoration: underline;
+        font-size: 20px;
+    }
+    .card2{
+        text-align:left;
+        height: 100px;
+    }
+    .card2 p{
+        color: red;
+        font-size: 25px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    }
+   
+    .card2 button{
+        margin-left: 10%;
+        margin-top: 9%;
+        padding: 10px 9px;
+        background-color:#355E3B;
+        color: whitesmoke;
+        border-radius: 10px;
+    }
+    .card2 button:hover{
+        background-color: black;
+        color: whitesmoke;
+        transition: 1s;
+    }
+.but{
+   float: right;
+   margin-right: 5%;
+   padding: 0px 15px;
+   margin-top: 1.2%;
+}
+.but1{
+    padding: 8px;
+    background-color:#ff8c69;
+    color: whitesmoke;
+    font-size: 20px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 2px 2px 5px black;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.but1:hover{
+    box-shadow: 2px 2px 70px black;}

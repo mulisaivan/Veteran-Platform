@@ -1,0 +1,340 @@
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #ffff;
+}
+.firstpart{
+     background: rgba(0,0,0,0.5)url("carousel-2.jpg"); 
+    background-size:50px;
+    background-blend-mode: darken;
+ 
+
+
+    color: aliceblue;
+  
+  
+}
+.firstpart .text
+{
+	text-align:left;
+	font-size:20px;
+	color: white;
+
+	
+}
+
+.firstpart .top{
+    height: 2rem;
+    /* background-color: aquamarine; */
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+} 
+.firstpart .p{
+    padding-top: 10rem;
+   padding-left: 20rem;
+   font-size: large;
+   font-weight: 300;
+    
+} 
+
+.firstpart .top .logo{
+    padding: 0rem 6rem;
+}
+
+.firstpart .top .logo img{
+    height: 4rem;
+    width: 6rem;
+    border-radius: 1rem;
+}
+.firstpart .top .logo a{
+ padding-left: 1rem;
+  /* background-color:  rgb(15, 122, 136);  */
+color:white;
+text-decoration: none;
+font-weight: 900;
+
+}
+.firstpart .top .logo a:hover{
+background-color: aqua;
+}
+
+.explain{
+    padding: 10px 20px 15px 10px;
+}
+.explain a{
+    color: rgb(15, 122, 136);
+    text-decoration: none;
+    font-weight: 900;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 3px;
+    overflow:auto;
+}
+.box-container .a{
+text-decoration-color: white;
+text-overflow: clip ;
+font-size: 20px;
+color: white;
+}
+.box-container .a:hover{
+    background-color: green;
+}
+.box-container .box1{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    color: white;
+    background-color:  rgb(30, 107, 84);;
+    /* text-align: center; */
+    overflow:auto;
+    padding: 90px 90px;
+    height: 60px;
+    width: 150px;
+background: url("course1.png"); 
+}
+.box-container .box2{
+   
+    border-radius: 5px;
+    color: white;
+    background-color:  rgb(30, 107, 84);;
+    /* text-align: center; */
+    overflow:hidden;
+    padding: 90px 90px;
+    height: 60px;
+    width: 150px;
+background: url("course2.jpg") ; 
+}
+.box-container .box3{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    color: white;
+    background-color:  rgb(30, 107, 84);;
+    /* text-align: center; */
+    overflow:auto;
+    padding: 90px 90px;
+    height: 60px;
+    width: 150px;
+background: url("course3.jpg"); 
+}
+.box-container .box4{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    color: white;
+    background-color:  rgb(30, 107, 84);;
+    /* text-align: center; */
+    overflow:auto;
+    padding: 90px 90px;
+    height: 60px;
+    width: 150px;
+background: url("course4.jpg"); 
+}
+.box-container .box5{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    color: white;
+    background-color:  rgb(30, 107, 84);;
+    /* text-align: center; */
+    overflow:auto;
+    padding: 90px 90px;
+    height: 60px;
+    width: 150px;
+background: url("course5.jpg"); 
+}
+.box-container .box6{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    color: white;
+    background-color:  rgb(30, 107, 84);;
+    /* text-align: center; */
+    overflow:auto;
+    padding: 90px 90px;
+    height: 60px;
+    width: 150px;
+background: url("course6.jpg"); 
+}
+.box-container .box7{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    color: white;
+    background-color:  rgb(30, 107, 84);;
+    /* text-align: center; */
+    overflow:auto;
+    padding: 90px 90px;
+    height: 60px;
+    width: 150px;
+background: url("course7.jpg"); 
+}
+.box-container .box8{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    color: white;
+    background-color:  rgb(30, 107, 84);;
+    /* text-align: center; */
+    overflow:auto;
+    padding: 90px 90px;
+    height: 60px;
+    width: 150px;
+background: url("course8.jpg"); 
+}
+.box-container .box a{
+color:white;
+text-decoration: none;
+font-weight: 900;
+font-size: 20px;
+}
+.box img{
+    width: 100%;
+}
+.aldiv{
+    display: flex;
+    justify-content: flex-end;
+    display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: end;
+}
+
+.describe {
+    font-size: 20px;
+
+    color: black;
+width: 50%;
+}
+
+    .guide {
+        margin-top: 0;
+        margin-left: auto;
+        justify-self: end;
+        flex: 1;
+ 
+      
+        text-align: right;
+       display: block;
+        color: black;
+        font-size: ;
+       
+    }
+.other{
+    margin-top: 3rem;
+    background-color: rgb(240, 244, 255);
+    height: 3rem;
+    padding-top: 1rem;
+}
+
+.thirdpart{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 4rem 9rem 2rem;
+    border-block-start-style: dotted;
+    border-block-start-color: brown;
+    padding: 4rem;
+    background-color:rgb(15, 122, 136);
+    color: aliceblue;
+    height: 15rem;
+}
+
+
+.thirdpart .part0{
+    border-left-style: dotted;
+    border-left-color: rgb(0, 0, 0);
+    margin-left: rem;
+   
+}
+.thirdpart .partcopy{
+    margin: 4rem;
+   grid-column: span 5;
+   
+}
+
+.onebox{
+    height: 20hv;
+}
+
+#greeting {
+    font-size: 24px;
+    color: #333333;
+    margin-top: 100px;
+  }
+  .content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+	margin-top: 60px;
+}
+.content h1{
+font-size: 70px;
+margin-top: 100px;
+  margin-left: 50px;
+
+}
+.content p{
+    margin-bottom: 0px;
+margin-left: 120px;
+    font-weight: 100;
+    line-height: 25px;
+    font-family: cursive;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: rgb(241, 213, 213);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-left: 90px;
+
+}
+.great{
+
+    font-size: 200px;
+    color: rgb(236, 218, 218);
+    width: 80%;
+    height: 10px;
+}
+
+
+.great {
+
+    font-size: 40px;
+  text-decoration-color: antiquewhite;
+    text-decoration:#009688;
+
+  }
+
+  .part0 {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.part0 span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.part0 span:last-child {
+    margin-bottom: 0;
+}
+
+.partcopy {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #888;
+}

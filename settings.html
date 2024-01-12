@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet">
+      <link rel="stylesheet" href="bord.css">
+      <link rel="stylesheet" href="personal.html">
+      <title> VET DashBoard</title>
+        
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+              <div class="logo">
+                <img src="Logo_Reserve.jpg">
+                <h2>Veteran<span class="danger">Platform</span></h2>
+              </div>
+                <div class="close" id="close-btn">
+                  <span class="material-icons-sharp">
+                    close
+                  </span>
+                </div>
+            </div>
+
+    <div class="sidebar">
+        <a href="#">
+            <span class="material-icons-sharp">
+                grid_view
+                </span>
+            <h3>DashBoard</h3>
+        </a>
+           
+        <a href="bord.html">
+            <span class="material-icons-sharp">
+                receipt_long
+                </span>
+            <h3>Home</h3>
+        </a>
+        <a href="updates.php">
+            <span class="material-icons-sharp">
+                insights
+                </span>
+            <h3>Updates</h3>
+        </a>
+      
+        
+        <a href="skills.php">
+            <span class="material-icons-sharp">
+                inventory
+                </span>
+            <h3>Skills</h3>
+        </a>
+        <a href="health.php">
+            <span class="material-icons-sharp">
+                report_gmailerrorred
+                </span>
+            <h3>Health</h3>
+        </a>
+                <a href="messages.php">
+                    <span class="material-icons-sharp">
+                    email 
+                    </span>   
+            <h3>Messages</h3>
+            <span class="message-count">02</span>
+        </a>
+        <a href="settings.html">
+            <span class="material-icons-sharp">
+                settings
+                </span>
+            <h3>Settings</h3>
+        </a>
+        <a href="retires.php">
+            <span class="material-icons-sharp">
+                add
+                </span>
+            <h3>Add Personnel</h3>
+        </a>
+        <a href="proper.html">
+            <span class="material-icons-sharp">
+                logout
+                </span>
+            <h3>Logout</h3>
+        </a>
+    </div>
+    </aside>
+    <div class="right">
+    <div class="top">
+        <button id="menu-btn">
+            <span class="material-icons-sharp">
+                menu
+                </span>
+        </button>
+        <div class="theme-toggler">
+            <span class="material-icons-sharp active">
+                light_mode
+            </span>
+            <span class="material-icons-sharp">
+                    dark_mode
+            </span>
+        </div>
+        <div class="profile">
+            <div class="info">
+                <p>Hey, <b>Ivan</b></p>
+                <small class="text-muted">Admin</small>
+            </div>
+            <div class="profile-photo">
+                <img src="gd.jpg">
+            </div>
+            </div>
+        </div>
+
+        <form>
+            
+            <h2>Compression Settings</h2>
+            <label for="compressionEnabled">Enable Compression:</label>
+            <input type="checkbox" id="compressionEnabled" name="compressionEnabled">
+            <br>
+            <label for="compressionLevel">Compression Level:</label>
+            <select id="compressionLevel" name="compressionLevel">
+              <option value="low">Low</option>
+              <option value="medium">Medium</option>
+              <option value="high">High</option>
+            </select>
+            
+            <h2>Image Optimization Settings</h2>
+            <label for="imageCompressionLevel">Image Compression Level:</label>
+            <select id="imageCompressionLevel" name="imageCompressionLevel">
+              <option value="low">Low</option>
+              <option value="medium">Medium</option>
+              <option value="high">High</option>
+            </select>
+            <br>
+            <label for="imageFormat">Preferred Image Format:</label>
+            <select id="imageFormat" name="imageFormat">
+              <option value="jpeg">JPEG</option>
+              <option value="png">PNG</option>
+            </select>
+            
+            <h2>Server Configuration</h2>
+            <label for="cacheSize">Cache Size:</label>
+            <input type="number" id="cacheSize" name="cacheSize">
+            <br>
+            <label for="timeout">Timeout (in seconds):</label>
+            <input type="number" id="timeout" name="timeout">
+            
+            
+            <h2>Performance Monitoring</h2>
+            <label for="monitoringApiKey">Monitoring API Key:</label>
+            <input type="text" id="monitoringApiKey" name="monitoringApiKey">
+            
+            <h2>Logging and Debugging</h2>
+            <label for="loggingEnabled">Enable Logging:</label>
+            <input type="checkbox" id="loggingEnabled" name="loggingEnabled">
+            <br>
+            <label for="logLevel">Log Level:</label>
+            <select id="logLevel" name="logLevel">
+              <option value="debug">Debug</option>
+              <option value="info">Info</option>
+              <option value="error">Error</option>
+            </select>
+            
+            <button type="submit">Save Settings</button>
+          </form>
+</body>
+</html>
